@@ -1,2 +1,2 @@
-# BTC-RPC
-A protocol for a more secure and private bitcoin light client to server pairing over Tor utilizing the Bitcoin Core JSON-RPC API.
+# BTCRPC the Standard
+A protocol for a more secure and private light client to server pairing over Tor utilizing the Bitcoin Core JSON-RPC API, with the goal of inspiring a new generation of censorship resistant Bitcoin wallets. The protocol aims to be cross platform, device agnostic, and universally implementable. This is a reference for server side and client side set up offering good practices to ensure interoperability between different light client implementations.
