@@ -1,4 +1,4 @@
-#BTC-RPC
+# BTC-RPC
  This section will define the spec for the deep link URI and QR Code which ideally would have the same format to ensure universal compatibility with either deep links or QR code scanning.
 
 ## Current Format
