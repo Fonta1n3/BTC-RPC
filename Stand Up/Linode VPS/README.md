@@ -12,7 +12,7 @@ Ideally it would be a web based UI where the user just needs to tap "Install" to
 The `btcrpc://` uri is obviously extremely sensitive as anyone who has access to it would have full access to your node. The solution I propose is utilizing Tor's built in V3 cookie authentication. [Here](https://matt.traudt.xyz/p/FgbdRTFr.html) is a guide for setting up such authentication. [Fully Noded](https://github.com/Fonta1n3/FullyNoded) (the proof of concept light client) already incorporates this means of authentication and handles key generation for the user. The benefits are that the key generation process can be completely separated from the Stand Up server e.g. the bitcoind server only requires the public key, if an attacker does not have the private key used to derive the public key then the `btcrpc:\\` uri containing the hostname and rpc credentials are completely useless to the attacker. The light client should ideally create the keys locally, therefore as part of the "Stand Up" flow the user would be prompted for a public key that the light client produces.
 
 ### Wallet Encryption
-The light client would handle wallet encryption and allow the user the option of wallet.dat encryption as an additional layer of security.
+The light client would handle wallet encryption and allow the user the option of wallet.dat encryption as an additional layer of security. (possibly use the auth priv key?)
 
 ### Server Security
 The Stand Up server would be completely locked down with a full firewall and SSH disabled, the only means of accessing bitcoind remotely would be via the tor hidden service.
