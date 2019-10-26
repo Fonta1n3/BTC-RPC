@@ -2,7 +2,7 @@
 A protocol for a more secure and private light client to server pairing over Tor utilizing the Bitcoin Core JSON-RPC API, with the goal of inspiring a new generation of censorship resistant and interoperable Bitcoin wallets. The protocol aims to be a cross platform and device agnostic reference detailing good practices to ensure interoperability between an ecosystem of light client implementations and Bitcoin Core nodes.
 
 
-As an example:
+The below is for an example only to give the home readme more content:
 
 # Stand Up (linux VPS)
 A server side one click script based installation that will setup a Linode VPS running Bitcoin Core over Tor and configuring each for secure and private light client pairing.
