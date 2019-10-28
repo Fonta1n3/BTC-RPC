@@ -4,7 +4,7 @@
 ## Current Format
 An example URL following the current format is:
 
-`btcrpc://<rpcuser>:<rpcpassword>@<hidden service hostname>:<hidden service port>?label=<optional node label>&v2password=<optional v2 password>``
+`btcrpc://<rpcuser>:<rpcpassword>@<hidden service hostname>:<hidden service port>?label=<optional node label>&v2password=<optional v2 password>`
 
 Example with label and v2password:
 
